@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tGVvgmBjl+AHTmfOlwjA+Elp/kVT0oYnboQ6/0g3aHKfw1qt/GkE+mGtkZj0JWdlMHuSexYxdwcRlpW2eS9oRQ==",
+  "dgSpecHash": "mBzK4At2I5aiGxfYvWwKfoCg+ua3BfxS0tw5afnGBhOZ7WaByKMzoysfRj8zWh+GXDAEF6EWM1KrbIPNx9azTA==",
   "success": true,
   "projectFilePath": "/home/cmaczok/Code/web-projects/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj",
   "expectedPackageFiles": [
