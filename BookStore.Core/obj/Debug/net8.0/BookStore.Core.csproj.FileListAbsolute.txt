@@ -1,0 +1,12 @@
+/home/jauhien/Code/BookStore/BookStore.Core/bin/Debug/net8.0/BookStore.Core.deps.json
+/home/jauhien/Code/BookStore/BookStore.Core/bin/Debug/net8.0/BookStore.Core.dll
+/home/jauhien/Code/BookStore/BookStore.Core/bin/Debug/net8.0/BookStore.Core.pdb
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/BookStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/BookStore.Core.AssemblyInfoInputs.cache
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/BookStore.Core.AssemblyInfo.cs
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/BookStore.Core.csproj.CoreCompileInputs.cache
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/BookStore.Core.sourcelink.json
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/BookStore.Core.dll
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/refint/BookStore.Core.dll
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/BookStore.Core.pdb
+/home/jauhien/Code/BookStore/BookStore.Core/obj/Debug/net8.0/ref/BookStore.Core.dll
