@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/cmaczok/Code/web-projects/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj": {}
+    "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj": {}
   },
   "projects": {
-    "/home/cmaczok/Code/web-projects/BookStore/BookStore.Core/BookStore.Core.csproj": {
+    "/home/jauhien/Code/BookStore/BookStore.Core/BookStore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cmaczok/Code/web-projects/BookStore/BookStore.Core/BookStore.Core.csproj",
+        "projectUniqueName": "/home/jauhien/Code/BookStore/BookStore.Core/BookStore.Core.csproj",
         "projectName": "BookStore.Core",
-        "projectPath": "/home/cmaczok/Code/web-projects/BookStore/BookStore.Core/BookStore.Core.csproj",
-        "packagesPath": "/home/cmaczok/.nuget/packages/",
-        "outputPath": "/home/cmaczok/Code/web-projects/BookStore/BookStore.Core/obj/",
+        "projectPath": "/home/jauhien/Code/BookStore/BookStore.Core/BookStore.Core.csproj",
+        "packagesPath": "/home/jauhien/.nuget/packages/",
+        "outputPath": "/home/jauhien/Code/BookStore/BookStore.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cmaczok/.nuget/NuGet/NuGet.Config"
+          "/home/jauhien/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,21 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/jauhien/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/cmaczok/Code/web-projects/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj": {
+    "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/cmaczok/Code/web-projects/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj",
+        "projectUniqueName": "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj",
         "projectName": "BookStore.DataAccess",
-        "projectPath": "/home/cmaczok/Code/web-projects/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj",
-        "packagesPath": "/home/cmaczok/.nuget/packages/",
-        "outputPath": "/home/cmaczok/Code/web-projects/BookStore/BookStore.DataAccess/obj/",
+        "projectPath": "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj",
+        "packagesPath": "/home/jauhien/.nuget/packages/",
+        "outputPath": "/home/jauhien/Code/BookStore/BookStore.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/cmaczok/.nuget/NuGet/NuGet.Config"
+          "/home/jauhien/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -79,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/cmaczok/Code/web-projects/BookStore/BookStore.Core/BookStore.Core.csproj": {
-                "projectPath": "/home/cmaczok/Code/web-projects/BookStore/BookStore.Core/BookStore.Core.csproj"
+              "/home/jauhien/Code/BookStore/BookStore.Core/BookStore.Core.csproj": {
+                "projectPath": "/home/jauhien/Code/BookStore/BookStore.Core/BookStore.Core.csproj"
               }
             }
           }
@@ -89,6 +94,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -98,6 +108,22 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -116,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/jauhien/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookStore.DataAccess
-build_property.ProjectDir = /home/cmaczok/Code/web-projects/BookStore/BookStore.DataAccess/
+build_property.ProjectDir = /home/jauhien/Code/BookStore/BookStore.DataAccess/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
