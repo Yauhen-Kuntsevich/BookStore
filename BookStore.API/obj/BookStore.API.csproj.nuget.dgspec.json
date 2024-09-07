@@ -26,6 +26,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/home/jauhien/Code/BookStore/BookStore.Application/BookStore.Application.csproj": {
+                "projectPath": "/home/jauhien/Code/BookStore/BookStore.Application/BookStore.Application.csproj"
+              },
               "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj": {
                 "projectPath": "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj"
               }
@@ -81,6 +84,71 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/jauhien/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jauhien/Code/BookStore/BookStore.Application/BookStore.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jauhien/Code/BookStore/BookStore.Application/BookStore.Application.csproj",
+        "projectName": "BookStore.Application",
+        "projectPath": "/home/jauhien/Code/BookStore/BookStore.Application/BookStore.Application.csproj",
+        "packagesPath": "/home/jauhien/.nuget/packages/",
+        "outputPath": "/home/jauhien/Code/BookStore/BookStore.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jauhien/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/jauhien/Code/BookStore/BookStore.Core/BookStore.Core.csproj": {
+                "projectPath": "/home/jauhien/Code/BookStore/BookStore.Core/BookStore.Core.csproj"
+              },
+              "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj": {
+                "projectPath": "/home/jauhien/Code/BookStore/BookStore.DataAccess/BookStore.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

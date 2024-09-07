@@ -1,7 +1,9 @@
+using BookStore.Application.Services;
+using BookStore.Core.Abstractions;
 using BookStore.DataAccess;
+using BookStore.DataAccess.Repositories;
 using dotenv.net;
 using Microsoft.EntityFrameworkCore;
-using dotenv.net;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +19,9 @@ builder.Services.AddDbContext<BookStoreDbContext>(
         options.UseNpgsql(connectionString);
     }
 );
+
+builder.Services.AddScoped<IBooksRepository, BooksReposytory>();
+builder.Services.AddScoped<IBooksService, BooksService>();
 
 var app = builder.Build();
 
